@@ -1,0 +1,82 @@
+[
+    {
+        "title": "Who won the FIFA World Cup in 2018?",
+        "ans1": "Brazil",
+        "ans2": "Germany",
+        "ans3": "France",
+        "ans4": "Argentina",
+        "right_ans": "France"
+    },
+    {
+        "title": "Which player has won the most Ballon d'Or awards as of 2024?",
+        "ans1": "Lionel Messi",
+        "ans2": "Cristiano Ronaldo",
+        "ans3": "Michel Platini",
+        "ans4": "Johan Cruyff",
+        "right_ans": "Lionel Messi"
+    },
+    {
+        "title": "Which country has won the most FIFA World Cups?",
+        "ans1": "Italy",
+        "ans2": "Brazil",
+        "ans3": "Germany",
+        "ans4": "Argentina",
+        "right_ans": "Brazil"
+    },
+    {
+        "title": "Which football club is known as The Red Devils?",
+        "ans1": "Manchester United",
+        "ans2": "Liverpool",
+        "ans3": "Bayern Munich",
+        "ans4": "AC Milan",
+        "right_ans": "Manchester United"
+    },
+    {
+        "title": "Who is the all-time top scorer in the UEFA Champions League as of 2024?",
+        "ans1": "Lionel Messi",
+        "ans2": "Cristiano Ronaldo",
+        "ans3": "Robert Lewandowski",
+        "ans4": "Karim Benzema",
+        "right_ans": "Cristiano Ronaldo"
+    },
+    {
+        "title": "Which club won the UEFA Champions League in 2023?",
+        "ans1": "Real Madrid",
+        "ans2": "Manchester City",
+        "ans3": "Chelsea",
+        "ans4": "Bayern Munich",
+        "right_ans": "Manchester City"
+    },
+    {
+        "title": "Which country hosted the 2010 FIFA World Cup?",
+        "ans1": "Germany",
+        "ans2": "South Africa",
+        "ans3": "Brazil",
+        "ans4": "Russia",
+        "right_ans": "South Africa"
+    },
+    {
+        "title": "In which year did the Premier League start?",
+        "ans1": "1988",
+        "ans2": "1990",
+        "ans3": "1992",
+        "ans4": "1994",
+        "right_ans": "1992"
+    },
+    {
+        "title": "What is the maximum number of players allowed on the field for one team during a football match?",
+        "ans1": "10",
+        "ans2": "11",
+        "ans3": "12",
+        "ans4": "9",
+        "right_ans": "11"
+    },
+    {
+        "title": "Which country won the first-ever FIFA World Cup in 1930?",
+        "ans1": "Argentina",
+        "ans2": "Brazil",
+        "ans3": "Uruguay",
+        "ans4": "Italy",
+        "right_ans": "Uruguay"
+    }
+]

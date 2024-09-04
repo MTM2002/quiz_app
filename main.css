@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Tahoma , Arial;
+    background-color: #333;
+}
+.quiz-app {
+    margin: 20px auto;
+    width: 800px;
+    background-color: #f8f8f8;
+    padding: 15px;
+}
+@media (max-width:767px) {
+    .quiz-app {
+        width: 400px;
+    }
+    .bullets {
+        flex-direction: column;
+    }
+    .counterdown {
+        margin-top: 20px;
+    }
+}
+.quiz-app .quiz-info {
+    display: flex;
+    background-color: #fff;
+    padding: 20px;
+}
+.quiz-app .quiz-info .category {
+    flex: 1;
+}
+.quiz-app .quiz-info .questions-count {
+    flex: 1;
+    text-align: right;
+}
+.quiz_area {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 15px;
+}
+.quiz_area h2 {
+    margin: 0;
+}
+.quiz_answers {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.quiz_answers .answer {
+    background-color: #f9f9f9;
+    padding: 15px;
+}
+.quiz_answers .answer:not(:last-child) {
+    border-bottom: 1px solid #dfdfdf;
+}
+.quiz_answers .answer input[type="Radio"]:checked + label {
+    color: #0075ff;
+}
+.quiz_answers .answer label {
+    color: #777;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+    position: relative;
+    top: -1px;
+    cursor: pointer;
+}
+.submit {
+    background-color: #0075ff;
+    color: #fff;
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.submit:focus {
+    outline: none;
+}
+.bullets {
+    border-top: 1px solid #dfdfdf;
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.bullets .spans {
+    flex: 1;
+    display: flex;
+}
+.bullets .spans span {
+    width: 25px;
+    height: 25px;
+    background-color: #ddd;
+    margin-right: 5px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+.bullets .spans span.on {
+    background-color: #0075ff;
+    color: #fff;
+}
+.results span {
+    font-weight: bold;
+}
+.results span.bad {
+    color: #dc0a0a;
+}
+.results span.good {
+    color: #009688;
+}
+.results span.perfect {
+    color: #0075ff;
+}
